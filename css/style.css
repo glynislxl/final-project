@@ -1,0 +1,100 @@
+header{
+    display:block;
+}
+
+h1{
+    border:3px;
+    border-color:blueviolet;
+}
+
+.skip{
+    position:absolute;
+    left:-500px;
+    background-color: azure;
+    padding:3px;
+    color:black;
+    opacity:0;
+}
+
+.skip:focus{
+    left:-500px;
+    position:static;
+    opacity:1;
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav img{
+    width:60px;
+    height:60px;
+    margin-top: 10px;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width:100%;
+    margin-top: 10px;
+}
+
+.animals_main{
+    text-align:center;
+}
+
+.animals{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+}
+
+.animals img{
+    display:inline-block;
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.flowers_main{
+    text-align:center;
+}
+
+.flowers{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flowers img{
+    width:100px;
+    height:100px;
+    border:3px solid black;
+    padding:5px;
+    border-radius: 5px;
+}
+
+.flowers img:nth-child(2){
+    border-color:blueviolet;
+}
+
+.flowers_main h2:hover{
+    color:darkred;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: wavy;
+}
+.footer img{
+    width:30px;
+    height:30px;
+    border:10px;
+    padding:5px;
+    border-radius: 5px;
+}
+
